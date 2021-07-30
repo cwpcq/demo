@@ -43,8 +43,8 @@ public class Demo {
         System.out.println(num1);
 
 
-        /*driver.findElement(By.name("activeNo")).sendKeys("123456");
-        driver.findElement(By.id("js-submit")).click();*/
+        driver.findElement(By.name("activeNo")).sendKeys("123456");
+        driver.findElement(By.id("js-submit")).click();
 
 
     }
